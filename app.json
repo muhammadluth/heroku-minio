@@ -3,12 +3,12 @@
   "description": "Deploy Minio to Heroku.",
   "keywords": ["minio"],
   "env": {
-    "ACCESS_KEY": {
-      "description": "MINIO_ACCESS_KEY, please change to your access key",
+    "USER": {
+      "description": "MINIO_ROOT_USER, please change to your access key",
       "value": "admin"
     },
-    "SECRET_KEY": {
-      "description": "MINIO_SECRET_KEY, please change to your secret key",
+    "PASSWORD": {
+      "description": "MINIO_ROOT_PASSWORD, please change to your secret key",
       "value": "Admin123!"
     }
   },
